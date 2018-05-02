@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 微信分享 -->
+    <string name="errcode_success">发送成功</string>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_unknown">发送返回</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="enter">这是SDK_Sample的回调界面</string>
+    <string name="reg">将该app注册到微信</string>
+    <string name="goto_send">跳转到发消息界面</string>
+    <string name="launch_wx">启动微信</string>
+    <string name="check_timeline_supported">检查是否支持发送到朋友圈</string>
+    <!--  -->
+    <string name="tab_3">购物车</string>
+    <string name="tab_4">个人中心</string>
+    <string name="tab_1">首页</string>
+    <string name="tab_2">更多商品</string>
+    <string name="tab_5">代理中心</string>
+    <!--  -->
+
+    <string name="app_name">佳优保商家端</string>
+    <string name="strPoint">小圆点</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- for auto update start -->
+    <string name="newUpdateAvailable">发现新版本</string>
+    <string name="dialogPositiveButton">立即下载</string>
+    <string name="dialogNegativeButton">以后再说</string>
+    <string name="app_no_new_update">没有发现新版本</string>
+    <string name="app_newest_version">当前版本为最新版本</string>
+    <string name="app_version_check_tip">正在检测版本</string>
+    <string name="download_progress">正在下载:%1$d%%</string>
+    <string name="download_success">下载完成，点击安装</string>
+    <!-- for auto update end -->
+    <!--登录  -->
+    <string name="input_account_hint">请输入帐号</string>
+    <string name="input_password_hint">请输入密码</string>
+    <string name="button_login">登录</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="filter_code">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <!--登录-->
+    <string name="login_input_account_hint">请输入帐号</string>
+    <string name="login_input_password_hint">请输入密码</string>
+    <string name="login_btn_login">登录</string>
+    <string name="logun_forget_password">忘记密码?</string>
+    <string name="login_other_login">其他登录方式</string>
+    <string name="find_password_input_mobile_hint">请输入手机号码</string>
+    <string name="find_password_input_get_code">获取验证码</string>
+    <string name="find_password_input_code_hint">请输入验证码</string>
+    <string name="find_password_input_password_hint">请输入密码</string>
+    <string name="find_password_change_password">重置密码</string>
+</resources>

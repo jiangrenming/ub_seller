@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="50dp"
+    android:background="@color/white"
+	android:orientation="vertical"
+	>
+
+	<EditText
+		android:id="@+id/et_password"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:hint="请输入密码"
+		android:maxLines="1"
+		android:maxLength="16"
+		android:textColor="@color/text_black"
+		android:textColorHint="@color/text_gray2"
+		style="@style/text_fontsize_s"
+		android:background="@color/transparent"/>
+
+	<ImageView
+		android:id="@+id/iv_show_pwd"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="10dp"
+		android:layout_alignParentRight="true"
+		android:layout_centerInParent="true"
+		android:src="@mipmap/password_hidden"/>
+
+	<View
+		android:id="@+id/view_line"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/gray_light8"
+		android:layout_alignParentBottom="true"
+		></View>
+</RelativeLayout>

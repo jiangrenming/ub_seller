@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/ub_bg"
+              android:orientation="vertical"
+    >
+
+    <com.example.huangjinding.ub_seller.HeadView
+        android:id="@+id/hv_title"
+        style="@style/title_height"
+        android:layout_width="match_parent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            style="@style/text_fontsize_xxx"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="常见问题"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray_light"
+            />
+        <ListView
+            android:id="@+id/lv_question_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ub_bg"
+            android:scrollbars="none"
+            >
+        </ListView>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <Button
+                android:id="@+id/btn_city_more"
+                style="@style/text_fontsize_m"
+                android:layout_width="fill_parent"
+                android:layout_height="53dp"
+                android:layout_gravity="bottom"
+                android:background="@color/text_red"
+                android:text="客服热线"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
